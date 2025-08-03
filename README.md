@@ -185,23 +185,6 @@ spring.servlet.multipart.max-request-size=10MB
 }
 ```
 
-## 🚀 Production Deployment
-
-### 🔧 Backend Deployment
-```bash
-# Navigate to backend directory
-cd backend
-
-# Create production JAR
-mvn clean package -DskipTests
-
-# Run the JAR file
-java -jar target/csv-validator-backend-0.0.1-SNAPSHOT.jar
-
-# Or with custom port
-java -jar -Dserver.port=8080 target/csv-validator-backend-0.0.1-SNAPSHOT.jar
-```
-
 ### 🎨 Frontend Deployment
 ```bash
 # Navigate to frontend directory
@@ -218,34 +201,11 @@ serve -s build -l 3000
 # Or deploy the 'build' folder to your preferred hosting service
 ```
 
-## 🐳 Docker Deployment (Optional)
-
-### 🔧 Backend Dockerfile
-```dockerfile
-FROM openjdk:17-jdk-slim
-COPY target/csv-validator-backend-0.0.1-SNAPSHOT.jar app.jar
-EXPOSE 8080
-ENTRYPOINT ["java","-jar","/app.jar"]
-```
-
-### 🎨 Frontend Dockerfile
-```dockerfile
-FROM node:16-alpine as build
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
-
-FROM nginx:alpine
-COPY --from=build /app/build /usr/share/nginx/html
-EXPOSE 80
-```
-=======
 
 
 
->>>>>>> a37289a9ab449b1bd33531ce5085f2a88929ca59
+
+
 
 ## 🔧 Troubleshooting
 
@@ -358,12 +318,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **luck-7** - [GitHub Profile](https://github.com/luck-7)
 
 
-## 🙏 Acknowledgments
 
-- Spring Boot team for the excellent framework
-- React team for the powerful UI library
-- OpenCSV contributors for the CSV parsing library
-- Bootstrap team for the beautiful UI components
 
 
 
@@ -388,7 +343,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 
 
-
----
-
->>>>>>> a37289a9ab449b1bd33531ce5085f2a88929ca59
