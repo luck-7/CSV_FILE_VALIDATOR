@@ -1,14 +1,8 @@
 # CSV_FILE_VALIDATOR
 
 
-# 📊 CSV File Validator
 
-[![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.0-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple.svg)](https://getbootstrap.com/)
 
-A full-stack web application for validating CSV files containing user data with real-time error reporting. Built with **Spring Boot** backend and **React** frontend.
 
 ## 🌟 Features
 
@@ -360,9 +354,15 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 👨‍💻 Result with correct and incorrect csv
 
+## incorrect 
+
 <img width="892" height="673" alt="Screenshot 2025-08-03 182139" src="https://github.com/user-attachments/assets/c6764da6-fbeb-4d4f-b0b0-e6c296f6f7ca" />
 
 
+
+
+
+## correct 
 <img width="827" height="526" alt="Screenshot 2025-08-03 182255" src="https://github.com/user-attachments/assets/5069902d-e63e-4655-b972-ee876d2b0530" />
 
 
