@@ -1,6 +1,5 @@
 
-A full-stack web application for validating CSV files containing user data with real-time error reporting. Built with **Spring Boot** backend and **React** frontend.
-=======
+
 # CSV_FILE_VALIDATOR
 
 
