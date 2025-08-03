@@ -243,36 +243,9 @@ cd frontend
 # Create production build
 npm run build
 
-# Serve with a static file server (example with serve)
-npm install -g serve
-serve -s build -l 3000
 
-# Or deploy the 'build' folder to your preferred hosting service
-```
 
-## 🐳 Docker Deployment (Optional)
 
-### 🔧 Backend Dockerfile
-```dockerfile
-FROM openjdk:17-jdk-slim
-COPY target/csv-validator-backend-0.0.1-SNAPSHOT.jar app.jar
-EXPOSE 8080
-ENTRYPOINT ["java","-jar","/app.jar"]
-```
-
-### 🎨 Frontend Dockerfile
-```dockerfile
-FROM node:16-alpine as build
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
-
-FROM nginx:alpine
-COPY --from=build /app/build /usr/share/nginx/html
-EXPOSE 80
-```
 
 ## 🔧 Troubleshooting
 
@@ -385,16 +358,16 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **luck-7** - [GitHub Profile](https://github.com/luck-7)
 
 
+## 👨‍💻 Result with correct and incorrect csv
+
+<img width="892" height="673" alt="Screenshot 2025-08-03 182139" src="https://github.com/user-attachments/assets/c6764da6-fbeb-4d4f-b0b0-e6c296f6f7ca" />
+
+
+<img width="827" height="526" alt="Screenshot 2025-08-03 182255" src="https://github.com/user-attachments/assets/5069902d-e63e-4655-b972-ee876d2b0530" />
 
 
 
-### 📞 Support
 
-If you encounter any issues or have questions:
-
-1. 🐛 **Bug Reports**: [Create an issue](https://github.com/luck-7/CSV_FILE_VALIDATOR/issues)
-2. 💡 **Feature Requests**: [Create an issue](https://github.com/luck-7/CSV_FILE_VALIDATOR/issues)
-3. 📧 **General Questions**: Open a discussion in the repository
 
 ---
 
