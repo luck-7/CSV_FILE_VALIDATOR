@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# 📊 CSV File Validator
-
-[![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.0-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple.svg)](https://getbootstrap.com/)
 
 A full-stack web application for validating CSV files containing user data with real-time error reporting. Built with **Spring Boot** backend and **React** frontend.
 =======
@@ -13,7 +6,7 @@ A full-stack web application for validating CSV files containing user data with 
 
 
 
->>>>>>> a37289a9ab449b1bd33531ce5085f2a88929ca59
+
 
 ## 🌟 Features
 
@@ -45,39 +38,9 @@ A full-stack web application for validating CSV files containing user data with 
 - **Axios** - HTTP client for API calls
 - **Functional Components + Hooks** - Modern React patterns
 
-## 📂 Project Structure
 
-```
-CSV_FILE_VALIDATOR/
-├── 🔧 backend/                    # Spring Boot Application
-│   ├── src/main/java/com/csvvalidator/
-│   │   ├── 🚀 CsvValidatorApplication.java
-│   │   ├── 🎮 controller/
-│   │   │   └── FileUploadController.java
-│   │   ├── ⚙️ service/
-│   │   │   └── CsvValidationService.java
-│   │   └── 📦 model/
-│   │       ├── ValidationError.java
-│   │       └── ValidationResponse.java
-│   ├── src/main/resources/
-│   │   └── application.properties
-│   └── pom.xml
-├── 🎨 frontend/                   # React Application
-│   ├── src/
-│   │   ├── 🧩 components/
-│   │   │   ├── FileUpload.js
-│   │   │   └── ErrorDisplay.js
-│   │   ├── 🌐 services/
-│   │   │   └── api.js
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── index.css
-│   ├── public/
-│   │   └── index.html
-│   └── package.json
-├── 📄 sample-data.csv             # Test CSV file with various scenarios
-└── 📖 README.md
-```
+
+
 
 ## 🚀 Quick Start
 
@@ -395,7 +358,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **luck-7** - [GitHub Profile](https://github.com/luck-7)
 
-<<<<<<< HEAD
+
 ## 🙏 Acknowledgments
 
 - Spring Boot team for the excellent framework
@@ -403,20 +366,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - OpenCSV contributors for the CSV parsing library
 - Bootstrap team for the beautiful UI components
 
----
 
-### 📞 Support
 
-If you encounter any issues or have questions:
 
-1. 🐛 **Bug Reports**: [Create an issue](https://github.com/luck-7/CSV_FILE_VALIDATOR/issues)
-2. 💡 **Feature Requests**: [Create an issue](https://github.com/luck-7/CSV_FILE_VALIDATOR/issues)
-3. 📧 **General Questions**: Open a discussion in the repository
 
----
 
-⭐ **If you find this project helpful, please give it a star!** ⭐
-=======
+
 
 ## 👨‍💻 Result with correct and incorrect csv
 
