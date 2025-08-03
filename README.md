@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📊 CSV File Validator
 
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/)
@@ -6,6 +7,13 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple.svg)](https://getbootstrap.com/)
 
 A full-stack web application for validating CSV files containing user data with real-time error reporting. Built with **Spring Boot** backend and **React** frontend.
+=======
+# CSV_FILE_VALIDATOR
+
+
+
+
+>>>>>>> a37289a9ab449b1bd33531ce5085f2a88929ca59
 
 ## 🌟 Features
 
@@ -240,6 +248,7 @@ cd frontend
 # Create production build
 npm run build
 
+<<<<<<< HEAD
 # Serve with a static file server (example with serve)
 npm install -g serve
 serve -s build -l 3000
@@ -270,6 +279,11 @@ FROM nginx:alpine
 COPY --from=build /app/build /usr/share/nginx/html
 EXPOSE 80
 ```
+=======
+
+
+
+>>>>>>> a37289a9ab449b1bd33531ce5085f2a88929ca59
 
 ## 🔧 Troubleshooting
 
@@ -381,6 +395,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **luck-7** - [GitHub Profile](https://github.com/luck-7)
 
+<<<<<<< HEAD
 ## 🙏 Acknowledgments
 
 - Spring Boot team for the excellent framework
@@ -401,3 +416,25 @@ If you encounter any issues or have questions:
 ---
 
 ⭐ **If you find this project helpful, please give it a star!** ⭐
+=======
+
+## 👨‍💻 Result with correct and incorrect csv
+
+## incorrect 
+
+<img width="892" height="673" alt="Screenshot 2025-08-03 182139" src="https://github.com/user-attachments/assets/c6764da6-fbeb-4d4f-b0b0-e6c296f6f7ca" />
+
+
+
+
+
+## correct 
+<img width="827" height="526" alt="Screenshot 2025-08-03 182255" src="https://github.com/user-attachments/assets/5069902d-e63e-4655-b972-ee876d2b0530" />
+
+
+
+
+
+---
+
+>>>>>>> a37289a9ab449b1bd33531ce5085f2a88929ca59
